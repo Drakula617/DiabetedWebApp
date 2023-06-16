@@ -1,0 +1,10 @@
+{
+  "FireBaseConfigureProducts": {
+    "AuthSecret": "lA9b00EU3ZNwtaqz5uN92s71AYiVUuCrKVJbm2jj",
+    "BasePath": "https://products-3490c-default-rtdb.firebaseio.com/"
+  },
+  "FireBaseConfigureDiaryDiabetes": {
+    "AuthSecret": "IxeHekuERScNR6mbNYbdTJg3aMmvVqDU1eatKC1w",
+    "BasePath": "https://diarydiabetic-default-rtdb.firebaseio.com/"
+  }
+}

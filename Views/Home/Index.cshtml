@@ -1,0 +1,15 @@
+﻿@using DiabetesWebApp.Models.Tables;
+@model Person;
+@{
+    foreach (var item in Model.DiaryLines)
+    {
+        <h3>@item.Datetime</h3>
+        if (item.DiaryProducts != null)
+            foreach (var item2 in item.DiaryProducts)
+            {
+                <h4>@item2.Product.Name</h4>
+                <h5>@item2.Product.FirstTypeProduct.Name</h5>
+            }
+        <h2></h2>
+    }
+}
